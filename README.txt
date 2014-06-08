@@ -1,7 +1,7 @@
 ﻿****************************Description***********************************
 * This repository contains python scripts for the matching of two linear *
 * feature shape-files.							 *
-* 								        	 *
+* 								         *
 * The two datasets are matched for defined areas. The script divides	 *
 * the area(s) into 1 square kilometre squares and matches the datasets   *
 * for each square separately. The output of the script is a matched 	 *
@@ -36,6 +36,10 @@
 * Execution: execute 'Linear_feature_matching.py' 	   		 *
 	    (in tests it is executed from the python console within QGIS)*
 *   								         *
+* Output: the output files of the OSM dataset and LM dataset contain     *
+*	  a attribute called "LM_match" respective "OSM_match" which     *
+* 	  contain the id ("id_clip") of matching feature(s)		 *
+*   									 *	   
 ***************************License****************************************
 *                                                                        *
 * This program is free software; you can redistribute it and/or modify   *
